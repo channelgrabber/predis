@@ -1,5 +1,8 @@
 {
-    "name": "predis/predis",
+    "name": "channelgrabber/predis",
+    "replace": {
+        "predis/predis": "self.version"
+    },
     "type": "library",
     "description": "Flexible and feature-complete PHP client library for Redis",
     "keywords": ["nosql", "redis", "predis"],
