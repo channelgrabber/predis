@@ -1,5 +1,5 @@
 {
-    "name": "channelgrabber/predis",
+    "name": "channelgrabber/cg-predis",
     "replace": {
         "predis/predis": "self.version"
     },
