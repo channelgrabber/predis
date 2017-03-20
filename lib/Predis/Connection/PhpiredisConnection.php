@@ -336,7 +336,7 @@ class PhpiredisConnection extends AbstractConnection
         $socket = $this->getResource();
 
         while (($length = strlen($buffer)) > 0) {
-            $written = socket_write($socket, $buffer, $length);
+            $written = @socket_write($socket, $buffer, $length);
 
             if ($length === $written) {
                 return;
